@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { RecoilRoot } from 'recoil';
-import { Form } from './components/Form';
+import { ConfigPage } from './pages/ConfigPage';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
     <RecoilRoot>
       <Routes>
-        <Route path='' element={Form} />
+        <Route path='' element={ConfigPage} />
       </Routes>
     </RecoilRoot>
     </BrowserRouter>
